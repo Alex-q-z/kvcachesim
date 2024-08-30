@@ -1,0 +1,9 @@
+[package]
+name = "kvcachesim"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.86"
+dam = {git="https://github.com/stanford-ppl/DAM-RS.git"}
+ndarray = "0.16.1"
